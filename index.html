@@ -45,8 +45,9 @@
       </section>
       <section class="section middle-section">
         <div class="container">
-          <ul class="no-bullet">
-            <li>
+          <ul class="feature-list no-bullet">
+            <li class="feature-list-item">
+              <div class="fl-icon-container"></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +55,18 @@
                 veritatis! Fugiat, quibusdam.
               </p>
             </li>
-            <li>
+            <li class="feature-list-item">
+              <div class="fl-icon-container">
+                <svg>
+                  <use
+                    x="100"
+                    y="25"
+                    width="70"
+                    height="70"
+                    href="./svg/fl-icons.svg#icon-clock"
+                  ></use>
+                </svg>
+              </div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,7 +74,8 @@
                 incidunt delectus iste?
               </p>
             </li>
-            <li>
+            <li class="feature-list-item">
+              <div class="fl-icon-container"></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
@@ -70,7 +83,8 @@
                 Est, deleniti laborum?
               </p>
             </li>
-            <li>
+            <li class="feature-list-item">
+              <div class="fl-icon-container"></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
@@ -115,61 +129,91 @@
         <div class="container">
           <h2 class="section-haeder">Nasz zespół</h2>
           <ul class="team-member-list no-bullet">
-            <li class="team-member">
-              <figure>
+            <li>
+              <div class="team-member">
                 <img
                   width="270"
                   height="260"
                   src="./images/product_designer_photo.jpg"
                   alt="Photo of product designer John Doe"
                 />
-                <figcaption>
+                <div class="team-member-tag">
                   <p class="name">John Doe</p>
                   <p class="job-position">Product designer</p>
-                </figcaption>
-              </figure>
+                  <ul class="social-media-links no-bullet">
+                    <li>
+                      <div class="sm-icon-container">
+                        <svg class="social-media-icon" width="44" height="44">
+                          <use href="./svg/sm-icons.svg#icon-instagram"></use>
+                        </svg>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="sm-icon-container">
+                        <svg class="social-media-icon" width="44" height="44">
+                          <use href="./svg/sm-icons.svg#icon-instagram"></use>
+                        </svg>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="sm-icon-container">
+                        <svg class="social-media-icon" width="44" height="44">
+                          <use href="./svg/sm-icons.svg#icon-instagram"></use>
+                        </svg>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="sm-icon-container">
+                        <svg class="social-media-icon" width="44" height="44">
+                          <use href="./svg/sm-icons.svg#icon-instagram"></use>
+                        </svg>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </li>
-            <li class="team-member">
-              <figure>
+            <li>
+              <div class="team-member">
                 <img
                   width="270"
                   height="260"
                   src="./images/frontend_developer_photo.jpg"
                   alt="Photo of frontend developer John Doe"
                 />
-                <figcaption>
+                <div class="team-member-tag">
                   <p class="name">John Doe</p>
                   <p class="job-position">Frontend developer</p>
-                </figcaption>
-              </figure>
+                </div>
+              </div>
             </li>
-            <li class="team-member">
-              <figure>
+            <li>
+              <div class="team-member">
                 <img
                   width="270"
                   height="260"
                   src="./images/marketing_specialist_photo.jpg"
                   alt="Photo of marketing specialist John Doe"
                 />
-                <figcaption>
+                <div class="team-member-tag">
                   <p class="name">John Doe</p>
                   <p class="job-position">Marketing</p>
-                </figcaption>
-              </figure>
+                </div>
+              </div>
             </li>
-            <li class="team-member">
-              <figure>
+            <li>
+              <div class="team-member">
                 <img
                   width="270"
                   height="260"
                   src="./images/UI_designer_photo.jpg"
                   alt="Photo of UI designer John Doe"
                 />
-                <figcaption>
+                <div class="team-member-tag">
                   <p class="name">John Doe</p>
                   <p class="job-position">UI Designer</p>
-                </figcaption>
-              </figure>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
