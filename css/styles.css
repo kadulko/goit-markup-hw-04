@@ -162,16 +162,18 @@ header {
   margin-top: 20px;
 }
 .upper-section {
+  max-width: 1600px;
   height: 600px;
   padding: 200px 0px;
-  background: linear-gradient(
+  margin: 0 auto;
+  background-image: linear-gradient(
       var(--dark-background-with-opacity),
       var(--dark-background-with-opacity)
     ),
     url(../images/upper_section_background_image.jpg);
+  background-position: center center;
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  /* opacity: 0.4; */
-  /* background-color: var(--dark-background-with-opacity); */
 }
 
 .upper-section h1 {
